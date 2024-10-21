@@ -11,7 +11,7 @@ import re
 from countries import get_countries
 #Variabes Globales
 
-API_KEY = 'a1bf0b70d657ad4b6ef37a78de02beaa74c8c330eadc30a9fbf966317e3371b3' #Cambiar valor al correspondiente
+API_KEY = '' #Cambiar valor al correspondiente
 
 api = PublicApi(API_KEY)
 
@@ -150,7 +150,7 @@ def abuseIPDB():
 
     abuse_ip_url = 'https://api.abuseipdb.com/api/v2/check'
     headers = {
-        'key':'747a8b575ad9460166c4010c36cc366baeb4d3669be80b5cf274e7a04272737fe3d1414f504c7a41', #Cambiar valor al correspondiente
+        'key':'', #Cambiar valor al correspondiente
         'Accept': 'application/json'
     }
 
@@ -224,7 +224,7 @@ def IPVoid():
 
     print("\n---------------------------IPVoid----------------------------------\n\n")
 
-    API_KEY = "9131f18e788a487460b8b67cc5c8416d30f31476"
+    API_KEY = ""
 
     url_void = f"https://endpoint.apivoid.com/iprep/v1/pay-as-you-go/?key={API_KEY}&ip={IP}"
 
